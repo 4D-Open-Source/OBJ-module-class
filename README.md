@@ -1,5 +1,7 @@
 # OBJ-module-class
-A class to read and write to an object  with a string path. Can be used as a replacement form Cannon Smith's OBJ Module.
+A class to read and write to an object with a dot-notation path. This is a convenient way to create complex objects on the fly as well as to build a complex path to read in a single call.
+
+Can be used as a replacement form Cannon Smith's OBJ Module.
 
 ## Example
 ```
