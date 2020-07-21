@@ -15,3 +15,17 @@ A class to read and write to an object  with a string path. Can be used as a rep
 	$path:="a[3].b[1].c"
 	$obj.setValue($o;$path;"new value") //  $o = {a:[null,null,null,{b:[null,{c:new value}]}]}
   ```
+## Member functions
+### setValue ( object; path; value ) 
+  object: nust be an object 
+  path: dot notation text path
+  value: 4D value
+ 
+ The hierarchy will be created if it's not already there. If an existing hierarchy will be overwritten if it doesn't match the path. 
+ You may include collections. Collections are sized to accomodate the specified index. 
+ 
+ ### getValue ( object; path ) -> variant
+ The hierarchy **is not** created. 
+ Returns **null** if path is not valid. 
+ 
+ NOTE: this is different behavior from the original OBJ Module, which creates the hierarchy and returns a blank or zero value for new values. 
