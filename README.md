@@ -17,7 +17,8 @@ A class to read and write to an object  with a string path. Can be used as a rep
   ```
 ## Member functions
 ### setValue ( object; path; value ) 
-  object: nust be an object 
+
+  object: must be an object 
   path: dot notation text path
   value: 4D value
  
@@ -25,6 +26,7 @@ A class to read and write to an object  with a string path. Can be used as a rep
  You may include collections. Collections are sized to accomodate the specified index. 
  
  ### getValue ( object; path ) -> variant
+ 
  The hierarchy **is not** created. 
  Returns **null** if path is not valid. 
  
