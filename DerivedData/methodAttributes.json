@@ -1,10 +1,22 @@
 ﻿{
 	"methods": {
-		"test": {
-			"timeStamp": "2020-07-21T15:31:03.349Z"
+		"Obj_get_text": {
+			"timeStamp": "2020-07-25T17:46:38.353Z"
 		},
-		"__readMe": {
-			"timeStamp": "2020-07-21T15:02:40.758Z"
+		"OBJ_SET_TEXT": {
+			"timeStamp": "2020-07-25T17:47:49.312Z"
+		},
+		"get_cObj": {
+			"timeStamp": "2020-07-25T18:26:54.495Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"test": {
+			"timeStamp": "2020-07-25T17:55:48.282Z"
+		},
+		"(__readMe)": {
+			"timeStamp": "2020-07-25T17:46:38.335Z"
 		}
 	}
 }
